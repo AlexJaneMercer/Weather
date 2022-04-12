@@ -1,0 +1,60 @@
+body{
+	background-image: url(bodyBG.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size: 100% 300%;
+}
+
+.hWeather{
+
+	text-align: center;
+	font-size: 50px;
+	color: whitesmoke;
+}
+
+#countries{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.cName{
+	font-size: 20px;
+	font-weight: bold;
+	background-color: whitesmoke;
+	border-radius: 20px;
+}
+
+.cWeather{
+	background-color: whitesmoke;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.cDegrees{
+	background-color: whitesmoke;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.cIcon{
+	background-color: lightblue;
+	border-radius: 20px;
+}
+
+.country{
+
+	border-radius: 30px;
+
+	min-width: 150px;
+
+	margin-right: 30px;
+	margin-left: 30px;
+
+	padding: 50px;
+	
+	background-color: white;
+	background-image: url(OpenWeather.png);
+	background-size: 200%;
+
+}
