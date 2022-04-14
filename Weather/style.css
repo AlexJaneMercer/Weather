@@ -1,60 +1,76 @@
-body{
-	background-image: url(bodyBG.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-size: 100% 300%;
+body {
+    background-color: steelblue;
 }
 
-.hWeather{
-
-	text-align: center;
-	font-size: 50px;
-	color: whitesmoke;
+.hWeather {
+    margin:  20px auto;
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
 }
 
-#countries{
-	text-align: center;
-	display: flex;
-	justify-content: center;
+#countries {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px ;
 }
 
-.cName{
-	font-size: 20px;
-	font-weight: bold;
-	background-color: whitesmoke;
-	border-radius: 20px;
+.whitesmoke{
+    background-color: whitesmoke;
+    border-radius: 20px;
 }
 
-.cWeather{
-	background-color: whitesmoke;
-	border-radius: 20px;
-	font-weight: bold;
+.cName {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.cDegrees{
-	background-color: whitesmoke;
-	border-radius: 20px;
-	font-weight: bold;
+.cWeather {
+    font-weight: bold;
 }
 
-.cIcon{
-	background-color: lightblue;
-	border-radius: 20px;
+.cDegrees {
+    font-weight: bold;
 }
 
-.country{
+.cIcon {
+    background-color: lightblue;
+    border-radius: 20px;
+}
 
-	border-radius: 30px;
+.country {
+    border-radius: 30px;
+    min-width: 150px;
 
-	min-width: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    padding: 50px;
+    background-color: white;
+    background-image: url(OpenWeather.png);
+    background-size: 200%;
+}
 
-	margin-right: 30px;
-	margin-left: 30px;
+.country-slider{
+    border-radius: 30px;  
+    padding: 50px;
+    background-color: white;
+    background-image: url(OpenWeather.png);
+    background-size: 200%;
+}
 
-	padding: 50px;
-	
-	background-color: white;
-	background-image: url(OpenWeather.png);
-	background-size: 200%;
+.sl{
+    text-align: center;
+}
 
+#slider{
+    width: 250px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#slider-list{
+    display: flex;
+    transition: all ease 0.2s;
 }
